@@ -1,0 +1,14 @@
+.logo-switch{
+    width: 26px;
+    height: 26px;
+    background: url(../images/icon-moon.svg);
+    cursor: pointer;
+  }
+
+
+.logo-switch-dark{
+  background: url(../images/icon-sun.svg);
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}

@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+:root{
+  /* ## Colors */
+
+  /* ### Primary */
+
+--brightBlue: hsl(220, 98%, 61%);
+--checkBackground: linear-gradient( hsl(192, 100%, 67%) to hsl(280, 87%, 65%));
+
+/* ### Neutral */
+
+/* ### Light Theme */
+
+--veryLightGray: hsl(0, 0%, 98%);
+--veryLightGrayishBlue: hsl(236, 33%, 92%);
+--lightGrayishBlue: hsl(233, 11%, 84%);
+--darkGrayishBlue: hsl(236, 9%, 61%);
+--veryDarkGrayishBlue: hsl(235, 19%, 35%);
+/* ### Dark Theme */
+
+
+  --veryDarkBlue: hsl(235, 21%, 11%);
+  --veryDarkDesaturatedBlue: hsl(235, 24%, 19%);
+  --lightGrayishBlue: hsl(234, 39%, 85%);
+  --lightGrayishBlue: hsl(236, 33%, 92%);/* (HOVER) */
+  --darkGrayishBlue: hsl(234, 11%, 52%);
+  --veryDarkGrayishBlue1: hsl(233, 14%, 35%);
+  --veryDarkGrayishBlue2: hsl(237, 14%, 26%);
+
+
+}
+
+
+
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +45,3 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}

@@ -1,0 +1,41 @@
+.TodoForm {
+  width: 100%;
+  min-height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--veryLightGray);
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  padding: 1rem;
+}
+
+.icon-check-container {
+  border-radius:100%;
+  border: 1px solid hsl(236, 33%, 92%);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.icon-check-container:hover{
+  border: 1px solid rgba(87,221,255,1) ;
+}
+
+.todo-input{
+  width: 100%;
+  border: none;
+  padding: 0 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  outline: none;
+  background-color: var(--veryLightGray);
+}
+
+.todo-input::placeholder{
+  color: var(--darkGrayishBlue);
+}
+
+.todo-input:focus{
+  outline: none;
+}

@@ -1,0 +1,45 @@
+/* Todo app container */
+
+.todo-list-main-container{
+    width: 600px;
+    min-height: 500px;
+    background: var(--veryLightGray);
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+  }
+
+
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: var(--darkGrayishBlue);
+}
+
+footer .clear-container:hover , .itemsLeft-container{
+  cursor: pointer;
+  color: var(--veryDarkGrayishBlue);
+}
+
+
+@media (max-width: 875px) {
+
+  .todo-list-main-container{
+    width: 350px;
+    min-height: 500px;
+    padding: 1rem;
+    position: relative;
+  }
+
+
+}
+
+
+
+
+
